@@ -1,3 +1,6 @@
+#El service principal debe presentar los siguientes permisos de Microsoft Graph: "Group.ReadWrite.All", "User.ReadWrite.All" e SharePoint "AllSites.FullControl", "TermStore.ReadWrite.All" e "User.ReadWrite.All"
+
+#Parametros de la Aplicacion Empresarial
 $TenantName = "xxxxx.onmicrosoft.com"
 $ClientId   = "xxxxxxxxx" 
 
