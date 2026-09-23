@@ -1,6 +1,6 @@
 #Para ejecutar este script, se debe acompañar con la siguiente sentencia:
 #.\Report_Sites.ps1 -SiteUrl "https://lantester.sharepoint.com/sites/Cloud" -ClientId "xxxxxxxxxxxxxxxxxx" -Tenant "xxxxx.onmicrosoft.com" -Thumbprint "xxxxxxx" -OutputPath ".\Logs"
-
+#El service principal debe presentar los siguientes permisos: "Sites.FullControl.All" y "Sites.ReadWrite.All"
 
 [CmdletBinding()]
 param(
